@@ -1,0 +1,6 @@
+<div class="contianer">
+  <div *ngFor="let food of data.FoodArray; index as i">
+      <h1>{{ food.name }}, id: {{ food.id }}</h1>
+    <button (click)="data.addItemToFridge(i)" >Add</button>
+  </div>
+</div>

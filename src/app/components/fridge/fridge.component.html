@@ -1,0 +1,7 @@
+<div class="container">
+    <app-fridge-item 
+        *ngFor="let item of data.FridgeArray; index as i"
+        [item]="item"
+        [index]="i"
+    ></app-fridge-item>
+</div>
